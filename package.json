@@ -1,0 +1,36 @@
+{
+  "name": "reasonml-react-demo",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack -w",
+    "dev": "webpack-dev-server"
+  },
+  "keywords": [
+    "BuckleScript",
+    "ReasonML",
+    "ReasonML React"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "react": ">=16.0.0",
+    "react-dom": ">=16.0.0",
+    "reason-react": ">=0.3.0"
+  },
+  "devDependencies": {
+    "bs-platform": "^2.1.0",
+    "bs-loader": "^2.0.0",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.6",
+    "react-hot-loader": "next",
+    "style-loader": "^0.18.2",
+    "stylus": "0.54.5",
+    "stylus-loader": "^3.0.1",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.1"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "reason-react-webpack-starter-kit",
+  "reason": {
+    "react-jsx": 2
+  },
+  "bsc-flags": ["-bs-super-errors", "-bs-gen-tds"],
+  "bs-dependencies": ["reason-react"],
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    }
+  ]
+}
